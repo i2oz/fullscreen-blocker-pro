@@ -1,0 +1,126 @@
+{
+    "extensionName": {
+        "message": "Fullscreen Blocker Pro",
+        "description": "اسم الإضافة"
+    },
+    "extensionDescription": {
+        "message": "إضافة احترافية لحظر الشاشة الكاملة تمنع المواقع من الدخول في وضع الشاشة الكاملة تلقائياً أو عبر تفاعل المستخدم. يحمي من الإعلانات المتطفلة والإلهاءات في الألعاب والمحتوى الغامر غير المرغوب فيه.",
+        "description": "وصف الإضافة"
+    },
+    "toggleTheme": {
+        "message": "تبديل المظهر",
+        "description": "تلميح زر تبديل المظهر"
+    },
+    "protectionStatus": {
+        "message": "حالة الحماية",
+        "description": "عنوان قسم حالة الحماية"
+    },
+    "protectionActive": {
+        "message": "حظر الشاشة الكاملة مفعل",
+        "description": "نص الحالة عند تفعيل الحماية"
+    },
+    "protectionInactive": {
+        "message": "حظر الشاشة الكاملة معطل",
+        "description": "نص الحالة عند إلغاء تفعيل الحماية"
+    },
+    "protectedSessions": {
+        "message": "محمي",
+        "description": "تسمية عداد الجلسات المحمية"
+    },
+    "attemptsBlocked": {
+        "message": "محظور",
+        "description": "تسمية عداد المحاولات المحظورة"
+    },
+    "whitelistTitle": {
+        "message": "القائمة البيضاء",
+        "description": "عنوان قسم القائمة البيضاء"
+    },
+    "addCurrentSite": {
+        "message": "إضافة الموقع الحالي إلى القائمة البيضاء",
+        "description": "تلميح زر إضافة الموقع الحالي"
+    },
+    "toggleCurrentSite": {
+        "message": "تبديل الحماية للموقع الحالي",
+        "description": "تلميح زر تبديل الموقع الحالي"
+    },
+    "removeFromWhitelist": {
+        "message": "إزالة من القائمة البيضاء",
+        "description": "تلميح زر الإزالة من القائمة البيضاء"
+    },
+    "protectionFeatures": {
+        "message": "ميزات الحماية",
+        "description": "عنوان قسم الميزات"
+    },
+    "f11Blocking": {
+        "message": "حظر مفتاح F11",
+        "description": "وصف الميزة"
+    },
+    "apiOverride": {
+        "message": "حماية تجاوز API",
+        "description": "وصف الميزة"
+    },
+    "autoPrevention": {
+        "message": "منع الشاشة الكاملة التلقائية",
+        "description": "وصف الميزة"
+    },
+    "pointerLock": {
+        "message": "حظر قفل المؤشر",
+        "description": "وصف الميزة"
+    },
+    "aboutTitle": {
+        "message": "حول",
+        "description": "عنوان قسم حول"
+    },
+    "developedBy": {
+        "message": "تم تطويره بواسطة أيتوغ أوزغون",
+        "description": "ائتمان المطور"
+    },
+    "visitWebsite": {
+        "message": "زيارة الموقع",
+        "description": "تلميح رابط الموقع"
+    },
+    "sendEmail": {
+        "message": "إرسال بريد إلكتروني",
+        "description": "تلميح رابط البريد الإلكتروني"
+    },
+    "viewSource": {
+        "message": "عرض الكود المصدري",
+        "description": "تلميح رابط GitHub"
+    },
+    "followTwitter": {
+        "message": "متابعة على تويتر",
+        "description": "تلميح رابط تويتر"
+    },
+    "connectLinkedIn": {
+        "message": "التواصل على LinkedIn",
+        "description": "تلميح رابط LinkedIn"
+    },
+    "support": {
+        "message": "الدعم",
+        "description": "نص رابط الدعم"
+    },
+    "rateExtension": {
+        "message": "تقييم الإضافة",
+        "description": "نص رابط تقييم الإضافة"
+    },
+    "privacyPolicy": {
+        "message": "سياسة الخصوصية",
+        "description": "نص رابط سياسة الخصوصية"
+    },
+    "footerText": {
+        "message": "حافظ على تجربة التصفح تحت السيطرة",
+        "description": "نص التذييل"
+    },
+    "fullscreenBlocked": {
+        "message": "الشاشة الكاملة محظورة",
+        "description": "عنوان الإشعار عند حظر الشاشة الكاملة"
+    },
+    "fullscreenBlockedMessage": {
+        "message": "Fullscreen Blocker Pro منع محاولة شاشة كاملة غير مرغوب فيها.",
+        "description": "رسالة الإشعار عند حظر الشاشة الكاملة"
+    },
+    "extensionInstalled": {
+        "message": "تم تثبيت الإضافة بنجاح! تصفحك الآن محمي من محتوى الشاشة الكاملة غير المرغوب فيه.",
+        "description": "رسالة الترحيب عند تثبيت الإضافة"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "extensionName": {
+        "message": "Fullscreen Blocker Pro",
+        "description": "Nome dell'estensione"
+    },
+    "extensionDescription": {
+        "message": "Estensione professionale per bloccare la modalità schermo intero che impedisce ai siti web di entrare in modalità schermo intero automaticamente o tramite interazione dell'utente. Protegge da pubblicità intrusive, distrazioni di gioco e contenuti immersivi indesiderati.",
+        "description": "Descrizione dell'estensione"
+    },
+    "toggleTheme": {
+        "message": "Cambia tema",
+        "description": "Tooltip per il pulsante di cambio tema"
+    },
+    "protectionStatus": {
+        "message": "Stato di Protezione",
+        "description": "Intestazione per la sezione stato di protezione"
+    },
+    "protectionActive": {
+        "message": "Il blocco schermo intero è attivo",
+        "description": "Testo di stato quando la protezione è abilitata"
+    },
+    "protectionInactive": {
+        "message": "Il blocco schermo intero è disabilitato",
+        "description": "Testo di stato quando la protezione è disabilitata"
+    },
+    "protectedSessions": {
+        "message": "Protetto",
+        "description": "Etichetta per il contatore sessioni protette"
+    },
+    "attemptsBlocked": {
+        "message": "Bloccato",
+        "description": "Etichetta per il contatore tentativi bloccati"
+    },
+    "whitelistTitle": {
+        "message": "Lista Bianca",
+        "description": "Titolo per la sezione lista bianca"
+    },
+    "addCurrentSite": {
+        "message": "Aggiungi sito corrente alla lista bianca",
+        "description": "Tooltip per il pulsante aggiungi sito corrente"
+    },
+    "toggleCurrentSite": {
+        "message": "Attiva/disattiva protezione per il sito corrente",
+        "description": "Tooltip per il pulsante attiva/disattiva sito corrente"
+    },
+    "removeFromWhitelist": {
+        "message": "Rimuovi dalla lista bianca",
+        "description": "Tooltip per il pulsante rimuovi dalla lista bianca"
+    },
+    "protectionFeatures": {
+        "message": "Funzionalità di Protezione",
+        "description": "Titolo per la sezione funzionalità"
+    },
+    "f11Blocking": {
+        "message": "Blocco Tasto F11",
+        "description": "Descrizione funzionalità"
+    },
+    "apiOverride": {
+        "message": "Protezione Override API",
+        "description": "Descrizione funzionalità"
+    },
+    "autoPrevention": {
+        "message": "Prevenzione Auto-Schermo Intero",
+        "description": "Descrizione funzionalità"
+    },
+    "pointerLock": {
+        "message": "Blocco Blocco Puntatore",
+        "description": "Descrizione funzionalità"
+    },
+    "aboutTitle": {
+        "message": "Informazioni",
+        "description": "Titolo per la sezione informazioni"
+    },
+    "developedBy": {
+        "message": "Sviluppato da Aytuğ Özgün",
+        "description": "Credito sviluppatore"
+    },
+    "visitWebsite": {
+        "message": "Visita sito web",
+        "description": "Tooltip per il link sito web"
+    },
+    "sendEmail": {
+        "message": "Invia email",
+        "description": "Tooltip per il link email"
+    },
+    "viewSource": {
+        "message": "Visualizza codice sorgente",
+        "description": "Tooltip per il link GitHub"
+    },
+    "followTwitter": {
+        "message": "Segui su Twitter",
+        "description": "Tooltip per il link Twitter"
+    },
+    "connectLinkedIn": {
+        "message": "Connetti su LinkedIn",
+        "description": "Tooltip per il link LinkedIn"
+    },
+    "support": {
+        "message": "Supporto",
+        "description": "Testo link supporto"
+    },
+    "rateExtension": {
+        "message": "Valuta Estensione",
+        "description": "Testo link valuta estensione"
+    },
+    "privacyPolicy": {
+        "message": "Politica Privacy",
+        "description": "Testo link politica privacy"
+    },
+    "footerText": {
+        "message": "Mantieni la tua esperienza di navigazione sotto controllo",
+        "description": "Testo piè di pagina"
+    },
+    "fullscreenBlocked": {
+        "message": "Schermo Intero Bloccato",
+        "description": "Titolo notifica quando schermo intero è bloccato"
+    },
+    "fullscreenBlockedMessage": {
+        "message": "Fullscreen Blocker Pro ha impedito un tentativo di schermo intero indesiderato.",
+        "description": "Messaggio notifica quando schermo intero è bloccato"
+    },
+    "extensionInstalled": {
+        "message": "Estensione installata con successo! La tua navigazione è ora protetta da contenuti schermo intero indesiderati.",
+        "description": "Messaggio di benvenuto all'installazione dell'estensione"
+    }
+}

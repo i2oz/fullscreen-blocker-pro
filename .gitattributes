@@ -1,0 +1,69 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.js text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.zip binary
+*.crx binary
+*.pem binary
+
+# Archive files
+*.tar binary
+*.gz binary
+*.7z binary
+*.rar binary
+
+# Video files
+*.mp4 binary
+*.mov binary
+*.avi binary
+
+# Audio files
+*.mp3 binary
+*.wav binary
+*.ogg binary
+
+# Documents
+*.pdf binary
+*.doc binary
+*.docx binary
+
+# Linguist overrides for better language detection
+*.json linguist-language=JSON
+manifest.json linguist-language=JSON
+package.json linguist-language=JSON
+
+# Mark generated files
+dist/** linguist-generated=true
+build/** linguist-generated=true
+
+# Documentation
+*.md linguist-documentation
+README.md linguist-documentation=false
+
+# Chrome extension specific
+manifest.json text eol=lf
+_locales/**/*.json text eol=lf

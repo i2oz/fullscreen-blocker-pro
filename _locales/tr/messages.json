@@ -1,0 +1,126 @@
+{
+  "extensionName": {
+    "message": "Fullscreen Blocker Pro",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Fullscreen blocking extension that prevents websites from entering fullscreen mode automatically or via user interaction.",
+    "description": "Description of the extension"
+  },
+  "toggleTheme": {
+    "message": "Toggle theme",
+    "description": "Tooltip for theme toggle button"
+  },
+  "protectionStatus": {
+    "message": "Protection Status",
+    "description": "Header for protection status section"
+  },
+  "protectionActive": {
+    "message": "Fullscreen blocking is active",
+    "description": "Status text when protection is enabled"
+  },
+  "protectionInactive": {
+    "message": "Fullscreen blocking is disabled",
+    "description": "Status text when protection is disabled"
+  },
+  "protectedSessions": {
+    "message": "Protected",
+    "description": "Label for protected sessions counter"
+  },
+  "attemptsBlocked": {
+    "message": "Blocked",
+    "description": "Label for blocked attempts counter"
+  },
+  "whitelistTitle": {
+    "message": "Whitelist",
+    "description": "Title for whitelist section"
+  },
+  "addCurrentSite": {
+    "message": "Add current site to whitelist",
+    "description": "Tooltip for add current site button"
+  },
+  "toggleCurrentSite": {
+    "message": "Toggle protection for current site",
+    "description": "Tooltip for toggle current site button"
+  },
+  "removeFromWhitelist": {
+    "message": "Remove from whitelist",
+    "description": "Tooltip for remove from whitelist button"
+  },
+  "protectionFeatures": {
+    "message": "Protection Features",
+    "description": "Title for features section"
+  },
+  "f11Blocking": {
+    "message": "F11 Key Blocking",
+    "description": "Feature description"
+  },
+  "apiOverride": {
+    "message": "API Override Protection",
+    "description": "Feature description"
+  },
+  "autoPrevention": {
+    "message": "Auto-Fullscreen Prevention",
+    "description": "Feature description"
+  },
+  "pointerLock": {
+    "message": "Pointer Lock Blocking",
+    "description": "Feature description"
+  },
+  "aboutTitle": {
+    "message": "About",
+    "description": "Title for about section"
+  },
+  "developedBy": {
+    "message": "Developed by Aytuğ Özgün",
+    "description": "Developer credit"
+  },
+  "visitWebsite": {
+    "message": "Visit website",
+    "description": "Tooltip for website link"
+  },
+  "sendEmail": {
+    "message": "Send email",
+    "description": "Tooltip for email link"
+  },
+  "viewSource": {
+    "message": "View source code",
+    "description": "Tooltip for GitHub link"
+  },
+  "followTwitter": {
+    "message": "Follow on Twitter",
+    "description": "Tooltip for Twitter link"
+  },
+  "connectLinkedIn": {
+    "message": "Connect on LinkedIn",
+    "description": "Tooltip for LinkedIn link"
+  },
+  "support": {
+    "message": "Support",
+    "description": "Support link text"
+  },
+  "rateExtension": {
+    "message": "Rate",
+    "description": "Rate extension link text"
+  },
+  "privacyPolicy": {
+    "message": "Privacy",
+    "description": "Privacy policy link text"
+  },
+  "footerText": {
+    "message": "Keep your browsing experience under control",
+    "description": "Footer text"
+  },
+  "fullscreenBlocked": {
+    "message": "Fullscreen Blocked",
+    "description": "Notification title when fullscreen is blocked"
+  },
+  "fullscreenBlockedMessage": {
+    "message": "Fullscreen Blocker Pro prevented an unwanted fullscreen attempt.",
+    "description": "Notification message when fullscreen is blocked"
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Your browsing is now protected from unwanted fullscreen content.",
+    "description": "Welcome message when extension is installed"
+  }
+}

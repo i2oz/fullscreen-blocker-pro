@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="extensionName">Fullscreen Blocker Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container" data-theme="auto">
+        <div class="header">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                    <path d="M12 8l-4 4 4 4V8z" opacity="0.7" />
+                </svg>
+                <span data-i18n="extensionName">Fullscreen Blocker Pro</span>
+            </div>
+            <button class="theme-toggle" id="themeToggle" data-i18n-title="toggleTheme">
+                <svg class="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" class="dark-icon" />
+                    <path
+                        d="M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zM12 1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1zm6.364 1.636a1 1 0 0 1 1.414 1.414l-1.414 1.414a1 1 0 1 1-1.414-1.414l1.414-1.414zM21 11a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-2a1 1 0 1 1 0-2h2zm-1.636 6.364a1 1 0 0 1 1.414 1.414 1 1 0 0 1-1.414 1.414l-1.414-1.414a1 1 0 1 1 1.414-1.414zM12 21a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1zm-6.364-1.636a1 1 0 0 1 1.414 1.414 1 1 0 0 1-1.414 1.414 1 1 0 0 1-1.414-1.414 1 1 0 0 1 1.414-1.414zM3 11a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1zm1.636-6.364a1 1 0 0 1 1.414 1.414 1 1 0 0 1-1.414 1.414 1 1 0 0 1-1.414-1.414 1 1 0 0 1 1.414-1.414z"
+                        class="light-icon" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="content">
+            <div class="toggle-section">
+                <div class="toggle-info">
+                    <h3 data-i18n="protectionStatus">Protection Status</h3>
+                    <p id="status-text" data-i18n="protectionActive">Fullscreen blocking is active</p>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="toggleSwitch" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-icon">🛡️</div>
+                    <div class="stat-info">
+                        <span class="stat-label" data-i18n="protectedSessions">Protected</span>
+                        <span class="stat-value" id="sessionsProtected">1</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🚫</div>
+                    <div class="stat-info">
+                        <span class="stat-label" data-i18n="attemptsBlocked">Blocked</span>
+                        <span class="stat-value" id="attemptsBlocked">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Whitelist Section -->
+            <div class="whitelist-section">
+                <div class="section-header">
+                    <h4 data-i18n="whitelistTitle">Whitelist</h4>
+                    <button class="btn-add" id="addWhitelistBtn" data-i18n-title="addCurrentSite">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 5v14m-7-7h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="current-site" id="currentSite">
+                    <span class="site-icon">🌐</span>
+                    <span class="site-url" id="currentSiteUrl">Loading...</span>
+                    <button class="btn-toggle" id="toggleCurrentSite" data-i18n-title="toggleCurrentSite">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="whitelist-items" id="whitelistItems">
+                    <!-- Whitelist items will be populated here -->
+                </div>
+            </div>
+
+            <div class="features">
+                <h4 data-i18n="protectionFeatures">Protection Features</h4>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <span class="feature-icon">⌨️</span>
+                        <span data-i18n="f11Blocking">F11 Key Blocking</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🌐</span>
+                        <span data-i18n="apiOverride">API Override Protection</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🔒</span>
+                        <span data-i18n="autoPrevention">Auto-Fullscreen Prevention</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎯</span>
+                        <span data-i18n="pointerLock">Pointer Lock Blocking</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="credits">
+                <h4 data-i18n="aboutTitle">About</h4>
+                <div class="credit-info">
+                    <p class="version">Version 1.0.0</p>
+                    <p class="developer" data-i18n="developedBy">Developed by Aytuğ Özgün</p>
+                    <div class="developer-links">
+                        <a href="https://www.barlasay.com" class="dev-link" target="_blank"
+                            data-i18n-title="visitWebsite">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                            </svg>
+                        </a>
+                        <a href="mailto:aytug@barlasay.com" class="dev-link" data-i18n-title="sendEmail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                            </svg>
+                        </a>
+                        <a href="https://github.com/i2oz/fullscreen-blocker-pro" class="dev-link" target="_blank"
+                            data-i18n-title="viewSource">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/aytugozgun" class="dev-link" target="_blank"
+                            data-i18n-title="followTwitter">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/i2oz" class="dev-link" target="_blank"
+                            data-i18n-title="connectLinkedIn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="links">
+                        <a href="#" id="supportLink" class="link" data-i18n="support">Support</a>
+                        <a href="#" id="rateLink" class="link" data-i18n="rateExtension">Rate Us</a>
+                        <a href="#" id="privacyLink" class="link" data-i18n="privacyPolicy">Privacy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p data-i18n="footerText">Keep your browsing experience under control</p>
+        </div>
+    </div>
+
+    <script src="i18n.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+{
+    "extensionName": {
+        "message": "Fullscreen Blocker Pro",
+        "description": "扩展名称"
+    },
+    "extensionDescription": {
+        "message": "专业全屏阻止扩展，防止网站自动或通过用户交互进入全屏模式。保护免受侵入性广告、游戏干扰和不需要的沉浸式内容影响。",
+        "description": "扩展描述"
+    },
+    "toggleTheme": {
+        "message": "切换主题",
+        "description": "主题切换按钮提示"
+    },
+    "protectionStatus": {
+        "message": "保护状态",
+        "description": "保护状态部分标题"
+    },
+    "protectionActive": {
+        "message": "全屏阻止已激活",
+        "description": "保护启用时的状态文本"
+    },
+    "protectionInactive": {
+        "message": "全屏阻止已禁用",
+        "description": "保护禁用时的状态文本"
+    },
+    "protectedSessions": {
+        "message": "受保护",
+        "description": "受保护会话计数器标签"
+    },
+    "attemptsBlocked": {
+        "message": "已阻止",
+        "description": "已阻止尝试计数器标签"
+    },
+    "whitelistTitle": {
+        "message": "白名单",
+        "description": "白名单部分标题"
+    },
+    "addCurrentSite": {
+        "message": "将当前站点添加到白名单",
+        "description": "添加当前站点按钮提示"
+    },
+    "toggleCurrentSite": {
+        "message": "切换当前站点的保护",
+        "description": "切换当前站点按钮提示"
+    },
+    "removeFromWhitelist": {
+        "message": "从白名单中移除",
+        "description": "从白名单移除按钮提示"
+    },
+    "protectionFeatures": {
+        "message": "保护功能",
+        "description": "功能部分标题"
+    },
+    "f11Blocking": {
+        "message": "F11键阻止",
+        "description": "功能描述"
+    },
+    "apiOverride": {
+        "message": "API覆盖保护",
+        "description": "功能描述"
+    },
+    "autoPrevention": {
+        "message": "自动全屏预防",
+        "description": "功能描述"
+    },
+    "pointerLock": {
+        "message": "指针锁定阻止",
+        "description": "功能描述"
+    },
+    "aboutTitle": {
+        "message": "关于",
+        "description": "关于部分标题"
+    },
+    "developedBy": {
+        "message": "由 Aytuğ Özgün 开发",
+        "description": "开发者信息"
+    },
+    "visitWebsite": {
+        "message": "访问网站",
+        "description": "网站链接提示"
+    },
+    "sendEmail": {
+        "message": "发送邮件",
+        "description": "邮件链接提示"
+    },
+    "viewSource": {
+        "message": "查看源代码",
+        "description": "GitHub链接提示"
+    },
+    "followTwitter": {
+        "message": "在Twitter上关注",
+        "description": "Twitter链接提示"
+    },
+    "connectLinkedIn": {
+        "message": "在LinkedIn上连接",
+        "description": "LinkedIn链接提示"
+    },
+    "support": {
+        "message": "支持",
+        "description": "支持链接文本"
+    },
+    "rateExtension": {
+        "message": "评价扩展",
+        "description": "评价扩展链接文本"
+    },
+    "privacyPolicy": {
+        "message": "隐私政策",
+        "description": "隐私政策链接文本"
+    },
+    "footerText": {
+        "message": "让您的浏览体验保持在控制之下",
+        "description": "页脚文本"
+    },
+    "fullscreenBlocked": {
+        "message": "全屏已阻止",
+        "description": "全屏被阻止时的通知标题"
+    },
+    "fullscreenBlockedMessage": {
+        "message": "Fullscreen Blocker Pro 阻止了一次不需要的全屏尝试。",
+        "description": "全屏被阻止时的通知消息"
+    },
+    "extensionInstalled": {
+        "message": "扩展安装成功！您的浏览现在受到保护，免受不需要的全屏内容影响。",
+        "description": "扩展安装时的欢迎消息"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "extensionName": {
+        "message": "Fullscreen Blocker Pro",
+        "description": "Nom de l'extension"
+    },
+    "extensionDescription": {
+        "message": "Extension professionnelle de blocage plein écran qui empêche les sites web d'entrer en mode plein écran automatiquement ou via l'interaction utilisateur. Protège contre les publicités intrusives, les distractions de jeux et le contenu immersif indésirable.",
+        "description": "Description de l'extension"
+    },
+    "toggleTheme": {
+        "message": "Changer le thème",
+        "description": "Info-bulle pour le bouton de changement de thème"
+    },
+    "protectionStatus": {
+        "message": "Statut de Protection",
+        "description": "En-tête pour la section statut de protection"
+    },
+    "protectionActive": {
+        "message": "Le blocage plein écran est actif",
+        "description": "Texte de statut quand la protection est activée"
+    },
+    "protectionInactive": {
+        "message": "Le blocage plein écran est désactivé",
+        "description": "Texte de statut quand la protection est désactivée"
+    },
+    "protectedSessions": {
+        "message": "Protégé",
+        "description": "Étiquette pour le compteur de sessions protégées"
+    },
+    "attemptsBlocked": {
+        "message": "Bloqué",
+        "description": "Étiquette pour le compteur de tentatives bloquées"
+    },
+    "whitelistTitle": {
+        "message": "Liste Blanche",
+        "description": "Titre pour la section liste blanche"
+    },
+    "addCurrentSite": {
+        "message": "Ajouter le site actuel à la liste blanche",
+        "description": "Info-bulle pour le bouton ajouter site actuel"
+    },
+    "toggleCurrentSite": {
+        "message": "Activer/désactiver la protection pour le site actuel",
+        "description": "Info-bulle pour le bouton basculer site actuel"
+    },
+    "removeFromWhitelist": {
+        "message": "Retirer de la liste blanche",
+        "description": "Info-bulle pour le bouton retirer de la liste blanche"
+    },
+    "protectionFeatures": {
+        "message": "Fonctionnalités de Protection",
+        "description": "Titre pour la section fonctionnalités"
+    },
+    "f11Blocking": {
+        "message": "Blocage Touche F11",
+        "description": "Description de fonctionnalité"
+    },
+    "apiOverride": {
+        "message": "Protection Override API",
+        "description": "Description de fonctionnalité"
+    },
+    "autoPrevention": {
+        "message": "Prévention Auto-Plein Écran",
+        "description": "Description de fonctionnalité"
+    },
+    "pointerLock": {
+        "message": "Blocage Verrouillage Pointeur",
+        "description": "Description de fonctionnalité"
+    },
+    "aboutTitle": {
+        "message": "À Propos",
+        "description": "Titre pour la section à propos"
+    },
+    "developedBy": {
+        "message": "Développé par Aytuğ Özgün",
+        "description": "Crédit développeur"
+    },
+    "visitWebsite": {
+        "message": "Visiter le site web",
+        "description": "Info-bulle pour le lien site web"
+    },
+    "sendEmail": {
+        "message": "Envoyer un email",
+        "description": "Info-bulle pour le lien email"
+    },
+    "viewSource": {
+        "message": "Voir le code source",
+        "description": "Info-bulle pour le lien GitHub"
+    },
+    "followTwitter": {
+        "message": "Suivre sur Twitter",
+        "description": "Info-bulle pour le lien Twitter"
+    },
+    "connectLinkedIn": {
+        "message": "Se connecter sur LinkedIn",
+        "description": "Info-bulle pour le lien LinkedIn"
+    },
+    "support": {
+        "message": "Support",
+        "description": "Texte du lien support"
+    },
+    "rateExtension": {
+        "message": "Évaluer l'Extension",
+        "description": "Texte du lien évaluer l'extension"
+    },
+    "privacyPolicy": {
+        "message": "Politique de Confidentialité",
+        "description": "Texte du lien politique de confidentialité"
+    },
+    "footerText": {
+        "message": "Gardez votre expérience de navigation sous contrôle",
+        "description": "Texte de pied de page"
+    },
+    "fullscreenBlocked": {
+        "message": "Plein Écran Bloqué",
+        "description": "Titre de notification quand le plein écran est bloqué"
+    },
+    "fullscreenBlockedMessage": {
+        "message": "Fullscreen Blocker Pro a empêché une tentative de plein écran indésirable.",
+        "description": "Message de notification quand le plein écran est bloqué"
+    },
+    "extensionInstalled": {
+        "message": "Extension installée avec succès ! Votre navigation est maintenant protégée contre le contenu plein écran indésirable.",
+        "description": "Message de bienvenue lors de l'installation de l'extension"
+    }
+}

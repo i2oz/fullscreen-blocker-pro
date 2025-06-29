@@ -1,0 +1,126 @@
+{
+    "extensionName": {
+        "message": "Fullscreen Blocker Pro",
+        "description": "Название расширения"
+    },
+    "extensionDescription": {
+        "message": "Профессиональное расширение для блокировки полноэкранного режима, которое предотвращает переход веб-сайтов в полноэкранный режим автоматически или через взаимодействие с пользователем. Защищает от навязчивой рекламы, игровых отвлечений и нежелательного иммерсивного контента.",
+        "description": "Описание расширения"
+    },
+    "toggleTheme": {
+        "message": "Переключить тему",
+        "description": "Подсказка для кнопки переключения темы"
+    },
+    "protectionStatus": {
+        "message": "Статус Защиты",
+        "description": "Заголовок для раздела статуса защиты"
+    },
+    "protectionActive": {
+        "message": "Блокировка полного экрана активна",
+        "description": "Текст статуса когда защита включена"
+    },
+    "protectionInactive": {
+        "message": "Блокировка полного экрана отключена",
+        "description": "Текст статуса когда защита отключена"
+    },
+    "protectedSessions": {
+        "message": "Защищено",
+        "description": "Метка для счётчика защищённых сессий"
+    },
+    "attemptsBlocked": {
+        "message": "Заблокировано",
+        "description": "Метка для счётчика заблокированных попыток"
+    },
+    "whitelistTitle": {
+        "message": "Белый Список",
+        "description": "Заголовок для раздела белого списка"
+    },
+    "addCurrentSite": {
+        "message": "Добавить текущий сайт в белый список",
+        "description": "Подсказка для кнопки добавления текущего сайта"
+    },
+    "toggleCurrentSite": {
+        "message": "Переключить защиту для текущего сайта",
+        "description": "Подсказка для кнопки переключения текущего сайта"
+    },
+    "removeFromWhitelist": {
+        "message": "Удалить из белого списка",
+        "description": "Подсказка для кнопки удаления из белого списка"
+    },
+    "protectionFeatures": {
+        "message": "Функции Защиты",
+        "description": "Заголовок для раздела функций"
+    },
+    "f11Blocking": {
+        "message": "Блокировка Клавиши F11",
+        "description": "Описание функции"
+    },
+    "apiOverride": {
+        "message": "Защита Переопределения API",
+        "description": "Описание функции"
+    },
+    "autoPrevention": {
+        "message": "Предотвращение Авто-Полноэкранного",
+        "description": "Описание функции"
+    },
+    "pointerLock": {
+        "message": "Блокировка Захвата Указателя",
+        "description": "Описание функции"
+    },
+    "aboutTitle": {
+        "message": "О Программе",
+        "description": "Заголовок для раздела о программе"
+    },
+    "developedBy": {
+        "message": "Дизайн: Айтуг Озгюн",
+        "description": "Информация о разработчике"
+    },
+    "visitWebsite": {
+        "message": "Посетить веб-сайт",
+        "description": "Подсказка для ссылки веб-сайта"
+    },
+    "sendEmail": {
+        "message": "Отправить email",
+        "description": "Подсказка для ссылки email"
+    },
+    "viewSource": {
+        "message": "Посмотреть исходный код",
+        "description": "Подсказка для ссылки GitHub"
+    },
+    "followTwitter": {
+        "message": "Подписаться в Twitter",
+        "description": "Подсказка для ссылки Twitter"
+    },
+    "connectLinkedIn": {
+        "message": "Подключиться в LinkedIn",
+        "description": "Подсказка для ссылки LinkedIn"
+    },
+    "support": {
+        "message": "Поддержка",
+        "description": "Текст ссылки поддержки"
+    },
+    "rateExtension": {
+        "message": "Оценить Расширение",
+        "description": "Текст ссылки оценки расширения"
+    },
+    "privacyPolicy": {
+        "message": "Политика Конфиденциальности",
+        "description": "Текст ссылки политики конфиденциальности"
+    },
+    "footerText": {
+        "message": "Держите свой опыт просмотра под контролем",
+        "description": "Текст нижнего колонтитула"
+    },
+    "fullscreenBlocked": {
+        "message": "Полный Экран Заблокирован",
+        "description": "Заголовок уведомления когда полный экран заблокирован"
+    },
+    "fullscreenBlockedMessage": {
+        "message": "Fullscreen Blocker Pro предотвратил нежелательную попытку полноэкранного режима.",
+        "description": "Сообщение уведомления когда полный экран заблокирован"
+    },
+    "extensionInstalled": {
+        "message": "Расширение успешно установлено! Ваш браузер теперь защищён от нежелательного полноэкранного контента.",
+        "description": "Приветственное сообщение при установке расширения"
+    }
+}

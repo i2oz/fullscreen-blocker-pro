@@ -1,0 +1,126 @@
+{
+    "extensionName": {
+        "message": "Fullscreen Blocker Pro",
+        "description": "Name der Erweiterung"
+    },
+    "extensionDescription": {
+        "message": "Professionelle Vollbild-Blocker-Erweiterung, die verhindert, dass Websites automatisch oder durch Benutzerinteraktion in den Vollbildmodus wechseln. Schützt vor aufdringlicher Werbung, Spielablenkungen und unerwünschten immersiven Inhalten.",
+        "description": "Beschreibung der Erweiterung"
+    },
+    "toggleTheme": {
+        "message": "Design wechseln",
+        "description": "Tooltip für Design-Umschaltknopf"
+    },
+    "protectionStatus": {
+        "message": "Schutzstatus",
+        "description": "Überschrift für Schutzstatus-Bereich"
+    },
+    "protectionActive": {
+        "message": "Vollbild-Blockierung ist aktiv",
+        "description": "Statustext wenn Schutz aktiviert ist"
+    },
+    "protectionInactive": {
+        "message": "Vollbild-Blockierung ist deaktiviert",
+        "description": "Statustext wenn Schutz deaktiviert ist"
+    },
+    "protectedSessions": {
+        "message": "Geschützt",
+        "description": "Label für geschützte Sitzungen Zähler"
+    },
+    "attemptsBlocked": {
+        "message": "Blockiert",
+        "description": "Label für blockierte Versuche Zähler"
+    },
+    "whitelistTitle": {
+        "message": "Whitelist",
+        "description": "Titel für Whitelist-Bereich"
+    },
+    "addCurrentSite": {
+        "message": "Aktuelle Seite zur Whitelist hinzufügen",
+        "description": "Tooltip für Aktuelle Seite hinzufügen Button"
+    },
+    "toggleCurrentSite": {
+        "message": "Schutz für aktuelle Seite umschalten",
+        "description": "Tooltip für Aktuelle Seite umschalten Button"
+    },
+    "removeFromWhitelist": {
+        "message": "Von Whitelist entfernen",
+        "description": "Tooltip für Von Whitelist entfernen Button"
+    },
+    "protectionFeatures": {
+        "message": "Schutzfunktionen",
+        "description": "Titel für Features-Bereich"
+    },
+    "f11Blocking": {
+        "message": "F11-Tasten-Blockierung",
+        "description": "Feature-Beschreibung"
+    },
+    "apiOverride": {
+        "message": "API-Override-Schutz",
+        "description": "Feature-Beschreibung"
+    },
+    "autoPrevention": {
+        "message": "Auto-Vollbild-Prävention",
+        "description": "Feature-Beschreibung"
+    },
+    "pointerLock": {
+        "message": "Zeiger-Sperren-Blockierung",
+        "description": "Feature-Beschreibung"
+    },
+    "aboutTitle": {
+        "message": "Über",
+        "description": "Titel für Über-Bereich"
+    },
+    "developedBy": {
+        "message": "Entwickelt von Aytuğ Özgün",
+        "description": "Entwickler-Kredit"
+    },
+    "visitWebsite": {
+        "message": "Website besuchen",
+        "description": "Tooltip für Website-Link"
+    },
+    "sendEmail": {
+        "message": "E-Mail senden",
+        "description": "Tooltip für E-Mail-Link"
+    },
+    "viewSource": {
+        "message": "Quellcode anzeigen",
+        "description": "Tooltip für GitHub-Link"
+    },
+    "followTwitter": {
+        "message": "Auf Twitter folgen",
+        "description": "Tooltip für Twitter-Link"
+    },
+    "connectLinkedIn": {
+        "message": "Auf LinkedIn verbinden",
+        "description": "Tooltip für LinkedIn-Link"
+    },
+    "support": {
+        "message": "Support",
+        "description": "Support-Link-Text"
+    },
+    "rateExtension": {
+        "message": "Erweiterung Bewerten",
+        "description": "Erweiterung bewerten Link-Text"
+    },
+    "privacyPolicy": {
+        "message": "Datenschutzrichtlinie",
+        "description": "Datenschutzrichtlinien-Link-Text"
+    },
+    "footerText": {
+        "message": "Behalten Sie Ihr Browser-Erlebnis unter Kontrolle",
+        "description": "Fußzeilen-Text"
+    },
+    "fullscreenBlocked": {
+        "message": "Vollbild Blockiert",
+        "description": "Benachrichtigungstitel wenn Vollbild blockiert wird"
+    },
+    "fullscreenBlockedMessage": {
+        "message": "Fullscreen Blocker Pro hat einen unerwünschten Vollbild-Versuch verhindert.",
+        "description": "Benachrichtigungsnachricht wenn Vollbild blockiert wird"
+    },
+    "extensionInstalled": {
+        "message": "Erweiterung erfolgreich installiert! Ihr Browser ist jetzt vor unerwünschten Vollbild-Inhalten geschützt.",
+        "description": "Willkommensnachricht bei Installation der Erweiterung"
+    }
+}

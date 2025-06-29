@@ -1,0 +1,77 @@
+{
+  "name": "fullscreen-blocker-pro",
+  "version": "1.0.0",
+  "description": "Professional fullscreen blocking extension for Chrome",
+  "main": "background.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:fix": "eslint *.js --fix",
+    "lint-css": "stylelint *.css",
+    "lint-css:fix": "stylelint *.css --fix",
+    "validate-manifest": "node scripts/validate-manifest.js",
+    "check-i18n": "node scripts/check-i18n.js",
+    "build": "node scripts/build.js",
+    "package": "npm run build && zip -r fullscreen-blocker-pro.zip build/",
+    "dev": "node scripts/dev-server.js",
+    "test": "npm run lint && npm run validate-manifest && npm run check-i18n",
+    "prepare": "node scripts/setup-dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i2oz/fullscreen-blocker-pro.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "fullscreen",
+    "blocker",
+    "privacy",
+    "security",
+    "ad-blocker",
+    "web-extension",
+    "manifest-v3"
+  ],
+  "author": {
+    "name": "Aytuğ Özgün",
+    "email": "aytug@barlasay.com",
+    "url": "https://www.barlasay.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i2oz/fullscreen-blocker-pro/issues"
+  },
+  "homepage": "https://github.com/i2oz/fullscreen-blocker-pro#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.251",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "archiver": "^6.0.1",
+    "chalk": "^5.3.0",
+    "chokidar": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": [
+    "Chrome >= 88"
+  ],
+  "files": [
+    "manifest.json",
+    "background.js",
+    "content.js",
+    "injected.js",
+    "popup.html",
+    "popup.css",
+    "popup.js",
+    "i18n.js",
+    "_locales/",
+    "icons/",
+    "README.md",
+    "LICENSE",
+    "PRIVACY.md"
+  ]
+}
