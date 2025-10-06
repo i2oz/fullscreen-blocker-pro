@@ -33,7 +33,7 @@ The extension automatically detects your browser language and displays the appro
 ## 🚀 Installation
 
 ### From Chrome Web Store
-1. Visit the [Chrome Web Store page](https://chrome.google.com/webstore/detail/fullscreen-blocker-pro)
+1. Visit the [Chrome Web Store page](https://chromewebstore.google.com/detail/fullscreen-blocker-pro/febipmhaonfflclkijaehmhnacjilggf)
 2. Click "Add to Chrome"
 3. Confirm installation
 
